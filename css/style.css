@@ -78,6 +78,55 @@ h4 {
   background: #f9f6f0;
 }
 
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+.central-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.item {
+  background-size: cover;
+  background-position: center;
+  height: 400px; /* Ajusta según sea necesario */
+}
+
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+.central-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.box {
+  background-size: cover;
+  background-position: center;
+  height: 250px; /* Ajusta según sea necesario */
+}
+
+.box {
+  background-size: cover;
+  background-position: center;
+  height: 250px; /* Ajusta según sea necesario */
+}
+
+.item {
+  background-size: cover;
+  background-position: center;
+  height: 400px; /* Ajusta según sea necesario */
+}
+
+
 #fh5co-header {
   position: absolute;
   z-index: 99;
@@ -102,6 +151,12 @@ h4 {
   .navbar-brand img {
     height: 20px; /* Ajusta según sea necesario */
     vertical-align: middle; /* Alinea verticalmente */
+}
+
+.item {
+  background-size: cover;
+  background-position: center;
+  height: 400px; /* Ajusta según sea necesario */
 }
 
 .navbar-nav > li > a {
