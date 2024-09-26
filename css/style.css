@@ -19,7 +19,7 @@ body {
   line-height: 1.8;
   color: #ffffff;
   color: #ffffff;
-  background: #24233F;
+  background: #161522;
   height: 100%;
   position: relative;
 }
@@ -84,7 +84,7 @@ h4 {
 }
 
 .central-image {
-  max-width: 100%;
+  max-width: 50%;
   height: auto;
   display: block;
   margin: 0 auto;
@@ -95,6 +95,29 @@ h4 {
   background-position: center;
   height: 400px; /* Ajusta según sea necesario */
 }
+
+						
+			
+
+
+.img-feature-1-large-image {
+  width: 500%; /* Ajusta el tamaño según tus necesidades */
+  height: auto;
+}
+
+
+			
+
+
+#fh5co-features {
+  text-align: center;
+}
+#fh5co-features .col-md-10 {
+  margin: 0 auto;
+  float: none;
+}
+
+
 
 .img-responsive {
   max-width: 100%;
@@ -256,7 +279,7 @@ h4 {
 }
 #fh5co-header.navbar-fixed-top {
   position: fixed !important;
-  background: #43337a;
+  background: #4e46ad;
   -webkit-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
   -ms-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
@@ -411,15 +434,15 @@ body {
   font-size: 30px;
 }
 #fh5co-tour .img-feature-1 {
-max-width: 140%;
+max-width: 100%;
 }
 
 #fh5co-testimonials {
-  background: #24233F;
-  background: #24233F;
+  background: #161522;
+  background: #161522;
 }
 #fh5co-testimonials .section-heading h2 {
-  color: #24233F;
+  color: #161522;
 }
 #fh5co-testimonials .section-heading h2:after {
   background: rgba(255, 255, 255, 0.2);
@@ -607,7 +630,7 @@ max-width: 140%;
 
 #fh5co-our-services,
 #fh5co-press {
-  background: #24233F
+  background: #161522
 }
 
 #fh5co-our-services .box {
@@ -789,7 +812,7 @@ p {
 }
 
 #fh5co-features {
-  background: #24233F;
+  background: #161522;
   padding: 7em 0;
 }
 @media screen and (max-width: 768px) {
@@ -1359,7 +1382,7 @@ p {
 }
 
 #fh5co-product-screenshots {
-  background: #24233F;
+  background: #161522;
 }
 #fh5co-product-screenshots .section-heading h2 {
   color: #fff;
@@ -1484,5 +1507,8 @@ p {
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
+
+
+
 
 /*# sourceMappingURL=style.css.map */
