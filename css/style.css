@@ -31,7 +31,7 @@ a {
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #363668;
+  color: #ffffff;
   outline: none;
 }
 
@@ -47,7 +47,7 @@ h1, {
 
 h2, h3, h4, h5, h6 {
   color: #ffffff;
-  font-family:"mukta", sans-serif;
+  font-family:"Montserrat", "mukta", sans-serif;
   font-weight: 400;
 }
 
@@ -64,17 +64,17 @@ h4 {
 }
 
 ::-webkit-selection {
-  color: #818892;
+  color: #ffffff;
   background: #f9f6f0;
 }
 
 ::-moz-selection {
-  color: #818892;
+  color: #ffffff;
   background: #f9f6f0;
 }
 
 ::selection {
-  color: #818892;
+  color: #ffffff;
   background: #f9f6f0;
 }
 
@@ -168,7 +168,7 @@ h4 {
     box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
   }
   #fh5co-header .navbar-brand {
-    color: #4c00ff !important;
+    color: #ffffff !important;
   }
 
   .navbar-brand img {
@@ -189,13 +189,13 @@ h4 {
 }
 
   #fh5co-header #navbar li a {
-    color: rgba(0, 0, 0, 0.5) !important;
+    color: rgba(255, 255, 255, 0.5) !important;
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
     transition: 0.3s;
   }
   #fh5co-header #navbar li a:hover {
-    color: #2c1970 !important;
+    color: #ffffff !important;
   }
   #fh5co-header #navbar li a span:before {
     background: transparent !important;
@@ -203,7 +203,7 @@ h4 {
   #fh5co-header #navbar li.active a {
     background: transparent;
     background: none;
-    color: #1c1aac !important;
+    color: #ffffff !important;
   }
   #fh5co-header #navbar li.active a span:before {
     visibility: visible;
@@ -216,8 +216,8 @@ h4 {
   margin-bottom: 0;
 }
 #fh5co-header #navbar li a {
-  font-family: "Work Sans", Arial, sans-serif;
-  color: rgba(255, 255, 255, 0.5);
+  font-family: "Mukta", Arial, sans-serif;
+  color: rgb(255, 255, 255);
   position: relative;
 }
 #fh5co-header #navbar li a span {
@@ -291,7 +291,7 @@ h4 {
   color: #ffffff;
 }
 #fh5co-header.navbar-fixed-top #navbar li a {
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(255, 255, 255, 0.575);
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
@@ -362,7 +362,7 @@ body {
 }
 .section-heading h2 {
   font-size: 40px;
-  font-weight: 300;
+  font-weight: 400;
   color: #ffffff;
   text-transform: uppercase;
   position: relative;
@@ -385,7 +385,7 @@ body {
 }
 @media screen and (max-width: 768px) {
   .section-heading h2 {
-    font-size: 30px;
+    font-size: 40px;
   }
 }
 .section-heading h3 {
@@ -396,7 +396,7 @@ body {
 }
 @media screen and (max-width: 768px) {
   .section-heading h3 {
-    font-size: 24px !important;
+    font-size: 30px !important;
     line-height: 34px;
   }
 }
@@ -607,6 +607,11 @@ max-width: 100%;
   background: #ffffff;
   opacity: .3;
 }
+
+
+
+
+
 .fh5co-cta .container {
   position: relative;
   z-index: 2;
@@ -790,7 +795,7 @@ p {
 #fh5co-our-services .box h3 {
   margin: 0 0 20px 0;
   padding: 0;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 20px;
   color: #ffffff;
 }
